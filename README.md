@@ -17,11 +17,11 @@ This is a pet project calculating the minimum distance from the centroid of a Ch
 
 *  Census_Data_-_Selected_socioeconomic_indicators_in_Chicago__2008___2012: pulled from the Chicago Data Portal
 
-```
-##Calculate distances between centroid and CA grocery stores
+```r
+## Calculate distances between centroid and CA grocery stores
 dist <- geodist(grocery_loc$LATITUDE, grocery_loc$LONGITUDE, grocery_loc$ca_lat, grocery_loc$ca_long, units="km")
 grocery_dist <- as.data.frame(cbind(grocery_loc, dist))
  
-##Find minimum distance from centroid to a grocery store
+## Find minimum distance from centroid to a grocery store
 grocery_min <- grocery_dist %>% group_by(COMMUNITY.AREA.NAME)
 ```
