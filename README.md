@@ -8,4 +8,6 @@ http://geonames.usgs.gov/domestic/download_data.htm
 
 Boundaries - Neighborhoods : boundaries of the neighborhoods
 
+centroids : centroid longitude and latitude, calculated by uploading shape files to http://shpescape.com/ft/upload/#
+
 Census_Data_-_Selected_socioeconomic_indicators_in_Chicago__2008___2012: pulled from the Chicago Data Portal
